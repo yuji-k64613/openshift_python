@@ -6,4 +6,5 @@ EXPOSE 8080
 #USER python
 USER 997
 WORKDIR /
-CMD python -m SimpleHTTPServer 8080
+#CMD python -m SimpleHTTPServer 8080
+CMD tail -f /dev/null
