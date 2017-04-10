@@ -1,4 +1,5 @@
 FROM debian:jessie
+MAINTAINER Y.Konishi
 
 #RUN groupadd -r python && useradd -r -g python python
 RUN apt-get update -y && apt-get install -y python
