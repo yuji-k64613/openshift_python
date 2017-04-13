@@ -9,3 +9,5 @@ USER 997
 WORKDIR /
 CMD python -m SimpleHTTPServer 8080
 #CMD ["tail", "-f", "/dev/null"]
+RUN python -V
+RUN which python
