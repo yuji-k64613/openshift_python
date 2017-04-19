@@ -9,6 +9,6 @@ EXPOSE 8080
 #USER python
 USER 997
 WORKDIR /
-#CMD /usr/bin/python -m SimpleHTTPServer 8080
+CMD /usr/bin/python -m SimpleHTTPServer 8080
 #CMD ["tail", "-f", "/dev/null"]
-CMD ["echo", "hello, world"]
+#CMD ["echo", "hello, world"]
